@@ -1,7 +1,7 @@
-`Guess the Number Game` 
+# Guess the Number Game 
 This project is a simple implementation of the "Guess the Number" game using Rust and the [Rustyline library](https://github.com/rust-lang/rustyline). The user is prompted to guess a number between 1-100, and the program will indicate if the guess is too small, too big, or correct.
 
-Code Explanation
+## Code Explanation
 ```
 use rustyline::error::ReadlineError;
 use rustyline::Editor;
@@ -56,7 +56,7 @@ This section generates a random number between 1 and 100 using the `rand` crate 
 ```
 This section sets up a loop that prompts the user to guess the number and checks if the guess is too small, too big, or correct. The program will continue to prompt the user until the correct number is guessed or the user interrupts the loop.
 
-Installation
+## Installation
 To run this project, you will need to have Rust and the `Rustyline` crate installed on your computer. You can download and install Rust from the following [link](https://www.rust-lang.org/tools/install): 
 
 You can install Rustyline by adding the following line to your `Cargo.toml` file:
@@ -67,7 +67,7 @@ rustyline = "8.5"
 rand = "0.7"
 ```
 
-Usage
+## Usage
 Clone the project repository to your local machine.
 
 ```
@@ -89,5 +89,5 @@ cargo run
 The program will prompt the user to guess a number between 1-100. Enter a number and press enter.
 The program will indicate if the guess is too small, too big, or correct. If the guess is correct, the user wins the game.
 
-License
+## License
 This project is licensed under the MIT License.
