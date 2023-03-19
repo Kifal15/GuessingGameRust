@@ -2,7 +2,7 @@
 # Guess the Number Game
 This project is a simple implementation of the "Guess the Number" game using Rust and the FLTK library. The user is prompted to guess a number between `1-100`, and the program will indicate if the guess is `too small`, `too big`, or `correct`. If the guess is correct, the user is prompted to guess a new number.
 
-Code Explanation
+## Code Explanation
 `use fltk::{app::*, button::*, frame::*, input::*, window::*};`
 `use fltk::prelude::WidgetBase;`
 `use fltk::prelude::WidgetExt;`
@@ -59,7 +59,7 @@ This section sets the callback for the guess button. When the button is pressed,
 `}`
 This section runs the FLTK application.
 
-Installation
+## Installation
 To run this project, you will need to have Rust and FLTK installed on your computer. You can download and install Rust from the following link:
 
 [Rust Installation](https://www.rust-lang.org/learn/get-started)
@@ -72,7 +72,7 @@ fltk = "1.3"
 rand = "0.7"
 ```
 
-Usage
+## Usage
 Clone the project repository to your local machine.
 
 `git clone https://github.com/Kifal15/GuessingGameRust/new/main/GUI-RustGuessingGame`
@@ -88,5 +88,5 @@ Run the project.
 The program will launch a window prompting the user to guess a number between `1-100`. Enter a number in the input field and click the "Guess" button.
 The program will indicate if the guess is `too small`, `too big`, or `correct`. If the guess is correct, the user is prompted to guess a new number.
 
-License
+## License
 This project is licensed under the MIT License.
