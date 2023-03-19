@@ -1,5 +1,5 @@
 
-## Guess the Number Game
+# Guess the Number Game
 This project is a simple implementation of the "Guess the Number" game using Rust and the FLTK library. The user is prompted to guess a number between `1-100`, and the program will indicate if the guess is `too small`, `too big`, or `correct`. If the guess is correct, the user is prompted to guess a new number.
 
 Code Explanation
